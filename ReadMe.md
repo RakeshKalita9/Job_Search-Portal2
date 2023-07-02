@@ -24,11 +24,19 @@ $ git push -u origin master
 <br>
 <h1 style="color:blue;";><b>Application Properties</h1>
 spring.datasource.url=jdbc:h2:mem:h2db
+<br>
 spring.datasource.driverClassName=org.h2.Driver
+<br>
 spring.datasource.username=sa
+<br>
 spring.datasource.password=root
+<br>
 spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+<br>
 spring.h2.console.enabled=true
+<br>
 spring.jpa.properties.hibernate.show_sql=true
+<br>
 spring.jpa.properties.hibernate.use_sql_comments=true
+<br>
 spring.jpa.properties.hibernate.format_sql=true
